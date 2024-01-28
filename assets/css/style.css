@@ -64,7 +64,27 @@ footer a {
   color: var(--secondary-text-color);
 }
 
+input {
+  font-family: var(--secondary-font-family);
+}
+
 .c-m-r {
   margin-right: 10px;
   font-size: 1rem;
+}
+
+.c-m-b {
+  margin-bottom: 1rem;
+}
+
+.s-t br {
+  content: "\00a0"; /* Unicode non-breaking space */
+  display: block;
+  margin-top: 0.75em; /* Adjust the value to control the space after the line break */
+}
+
+@media screen and (max-width: 768px) {
+  .c-m-b {
+    margin-bottom: 0;
+  }
 }
