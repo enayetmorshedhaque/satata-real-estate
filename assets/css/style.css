@@ -1,0 +1,70 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  /* Text Colors */
+  --primary-text-color: #ffffff;
+  --secondary-text-color: #222222;
+  --section-heading-text-color: #552fff;
+
+  /* Background Colors */
+  --background-color: #efefef;
+  --footer-color: #552fff;
+
+  /* Button Color */
+  --hue: 245;
+  --first-color: hsl(var(--hue), 90%, 60%);
+  --first-color-alt: hsl(var(--hue), 82%, 56%);
+  --white-color: hsl(0, 0%, 100%);
+
+  /* Font */
+  /* --font-family: "Poppins", sans-serif; */
+  --primary-font-family: "Montserrat", sans-serif;
+  --secondary-font-family: "Lato", sans-serif;
+
+  /* Font Size */
+  --primary-font: 1.5rem;
+  --secondary-font: 1.25rem;
+  --secondary-font-tablet: 1.2rem;
+  --secondary-font-mobile: 1.25rem;
+  --hero-primary-font: 4.5rem;
+  --hero-primary-font-tablet: 4rem;
+  --hero-primary-font-mobile: 2.5rem;
+  --hero-secondary-font: 2rem;
+  --social-link-font: 1.75rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: var(--primary-font-family);
+}
+
+body {
+  background-color: var(--background-color);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer ul {
+  padding-left: 0rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer a {
+  color: var(--secondary-text-color);
+}
+
+.c-m-r {
+  margin-right: 10px;
+  font-size: 1rem;
+}
